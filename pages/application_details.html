@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Details</title>
+  <link rel="stylesheet" href="application_details.css">
+</head>
+<body>
+  <header>
+    <div class="header-title">Smart Recruiting System</div>
+    <div class="header-links">
+      <a href="application_tracking_system_dashboard.html">ATS</a>
+        <a href="interview_scheduling.html">Interview Scheduling</a>
+        <a href="recruitment_dashboard.html">Recruitment Dashboard</a>
+        <a href="custom_dashboard.html">Custom Dashboard</a>
+        <a href="login.html" class="login-button">Login</a>
+    </div>
+</header>
+  
+  <main>
+    <h1 class="content-title">Application Details</h1>
+    
+    <div class="form-container">
+      <section class="applicant-info">
+        <h2>Applicant Information</h2>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Applicant Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Applicant Email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" placeholder="Applicant Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="resume">Resume</label>
+          <button id="resume" class="download-btn">Download Resume</button>
+        </div>
+      </section>
+      
+      <section class="job-info">
+        <h2>Job Information</h2>
+        <div class="form-group">
+          <label for="job-title">Job Title</label>
+          <input type="text" id="job-title" placeholder="Job Title Applied For">
+        </div>
+        <div class="form-group">
+          <label for="department">Department</label>
+          <input type="text" id="department" placeholder="Department of the Job">
+        </div>
+        <div class="form-group">
+          <label for="location">Location</label>
+          <input type="text" id="location" placeholder="Job Location">
+        </div>
+      </section>
+      
+      <section class="application-status">
+        <h2>Application Status</h2>
+        <div class="form-group">
+          <label for="current-status">Current Status</label>
+          <input type="text" id="current-status" placeholder="Current Status of the Application">
+        </div>
+        <div class="form-group">
+          <label for="change-status">Change Status</label>
+          <select id="change-status">
+            <option value="" disabled selected>Select New Status</option>
+            <option value="applied">Applied</option>
+            <option value="in-review">In Review</option>
+            <option value="interview">Interview</option>
+            <option value="offered">Offered</option>
+            <option value="rejected">Rejected</option>
+          </select>
+        </div>
+        <button class="save-status-btn">Save Status</button>
+      </section>
+      
+      <section class="notes">
+        <h2>Notes</h2>
+        <div class="form-group">
+          <label for="notes">Notes</label>
+          <textarea id="notes" placeholder="Add notes about the application"></textarea>
+        </div>
+        <button class="save-notes-btn">Save Notes</button>
+      </section>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="footer-links">
+      <a href="#">ATS</a>
+      <a href="#">Interview Scheduling</a>
+      <a href="#">Recruitment Dashboard</a>
+      <a href="#">Custom Reports</a>
+      <a href="#">Login</a>
+      <a href="#">Signup</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </footer>
+</body>
+</html>

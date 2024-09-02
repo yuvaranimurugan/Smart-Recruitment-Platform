@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #424291;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+.header-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('../assets/images/application_details_22.jpeg') center center / cover no-repeat;
+    background-color: rgba(255, 255, 255, 0.8); /* White overlay */
+    color: #000000; /* Text color for readability */
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#services {
+    padding: 20px;
+}
+
+.service {
+    display: flex;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.service img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.service-details {
+    padding: 20px;
+    width: 60%;
+}
+
+.service-details h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.service-details p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.enroll-button {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.enroll-button:hover {
+    background-color: #2c5480;
+}
+
+footer {
+    background-color: #2121D9;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}

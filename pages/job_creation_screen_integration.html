@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Creation Screen - Integration with Categories</title>
+    <link rel="stylesheet" href="job_creation_screen_integration.css">
+</head>
+<body>
+    <header>
+        <div class="header-title">Smart Recruiting System</div>
+        <div class="header-links">
+            <a href="application_tracking_system_dashboard.html">ATS</a>
+            <a href="interview_scheduling.html">Interview Scheduling</a>
+            <a href="recruitment_dashboard.html">Recruitment Dashboard</a>
+            <a href="custom_dashboard.html">Custom Dashboard</a>
+            <a href="internship.html">Internship</a>
+            <a href="login.html" class="login-button">Login</a>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <div class="content-title">Create New Job</div>
+            <form>
+                <div class="form-group">
+                    <label for="department">Department</label>
+                    <select id="department" name="department" required>
+                        <option value="" disabled selected>Select Department</option>
+                        <!-- Options populated from Job Categories Management -->
+                        <option value="HR">HR</option>
+                        <option value="IT">IT</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Sales">Sales</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="job-location">Job Location</label>
+                    <select id="job-location" name="job-location" required>
+                        <option value="" disabled selected>Select Job Location</option>
+                        <!-- Options populated from Job Categories Management -->
+                        <option value="New York">New York</option>
+                        <option value="San Francisco">San Francisco</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                        <option value="Chicago">Chicago</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="employment-type">Employment Type</label>
+                    <select id="employment-type" name="employment-type" required>
+                        <option value="" disabled selected>Select Employment Type</option>
+                        <!-- Options populated from Job Categories Management -->
+                        <option value="Full-time">Full-time</option>
+                        <option value="Part-time">Part-time</option>
+                        <option value="Contract">Contract</option>
+                        <option value="Internship">Internship</option>
+                    </select>
+                </div>
+                <div class="button-group">
+                    <button type="button" class="login-button" onclick="location.href='form_creation_screen.html';">Publish Job</button>
+
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="contact_us.html">Contact Us</a>
+            <a href="about_us.html">About Us</a>
+            <!-- Add more footer links as needed -->
+        </div>
+    </footer>
+</body>
+</html>

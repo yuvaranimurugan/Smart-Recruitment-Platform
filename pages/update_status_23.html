@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Update Status</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="update_status_23.css" />
+</head>
+<body>
+  <div class="update-status-23">
+    <header>
+      <div class="header-title">Smart Recruiting System</div>
+      <div class="header-links">
+          <a href="ats.html">ATS</a>
+          <a href="interview_scheduling.html">Interview Scheduling</a>
+          <a href="recruitment_dashboard.html">Recruitment Dashboard</a>
+          <a href="custom_dashboard.html">Custom Dashboard</a>
+          <a href="login.html" class="login-button">Login</a>
+      </div>
+  </header>
+    <main>
+      <div class="form-container">
+        <h2>Update Status</h2>
+        <div class="form-group">
+          <label for="current-status">Current Status</label>
+          <input type="text" id="current-status" placeholder="Current status example" />
+        </div>
+        <div class="form-group">
+          <label for="new-status">New Status</label>
+          <select id="new-status">
+            <option value="" disabled selected>Select new status</option>
+            <option value="new">New</option>
+            <option value="in-progress">In Progress</option>
+            <option value="hired">Hired</option>
+            <option value="rejected">Rejected</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="notes">Notes</label>
+          <textarea id="notes" placeholder="Enter any notes here"></textarea>
+        </div>
+        <button class="save-status">Save Status</button>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

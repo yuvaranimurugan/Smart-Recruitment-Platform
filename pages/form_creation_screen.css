@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('../assets/images/whats_app_image_20240901_at_001330_b_5_a_84_b_1_d_1.jpeg') center center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #424291;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.header-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.content-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.form-container {
+    background: #FFFF;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px; /* Increased font size */
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px; /* Increased height */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.publish-job {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    border: none;
+    cursor: pointer;
+}
+
+.publish-job:hover {
+    background-color: #2c5480;
+}
+
+footer {
+    background-color: #2121D9;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Styles specific to table in application forms management screen */
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%; /* Adjusted to full width */
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.table th,
+.table td {
+    padding: 12px; /* Increased padding */
+    border: 1px solid #cccccc;
+    text-align: left;
+    font-size: 18px; /* Increased font size */
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.edit-button,
+.delete-button {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px; /* Increased font size */
+    margin-right: 5px; /* Adjusted to reduce gap */
+}
+
+.delete-button {
+    background-color: #D43131;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
+
+.create-new-form {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    border: none;
+    cursor: pointer;
+}
+
+.create-new-form:hover {
+    background-color: #2c5480;
+}

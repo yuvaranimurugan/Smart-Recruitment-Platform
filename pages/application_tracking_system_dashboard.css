@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.application-tracking-dashboard {
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background-color: #424291;
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.header-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.login-button {
+  background-color: #3567B8;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+/* Banner Section */
+.banner {
+  position: relative;
+  height: 450px; /* Increased the height by 50% */
+  background: url('../assets/images/whats_app_image_20240831_at_113746_c_5_b_8_d_0_d_81.jpeg') center center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.login-button {
+  background-color: #3567B8;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.dashboard-container {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: 700;
+}
+
+.table-actions a {
+  color: #3567B8;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.view-all-button {
+  background-color: #3567B8;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Course Section */
+.courses {
+  margin-top: 40px;
+}
+
+.course-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.course {
+  width: 30%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.course h3 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  z-index: 2;
+}
+
+.course::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for text visibility */
+  z-index: 1;
+}
+
+.learn-more-button {
+  background-color: #FFFFFF;
+  color: #3567B8;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 15px;
+  z-index: 2;
+}
+
+footer {
+  background-color: #2121D9;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 10px;
+}

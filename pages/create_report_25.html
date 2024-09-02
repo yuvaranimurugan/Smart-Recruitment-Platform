@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create Report</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="create_report_25.css" />
+</head>
+<body>
+  <div class="create-report-25">
+    <header>
+      <div class="header-title">Smart Recruiting System</div>
+      <div class="header-links">
+          <a href="application_tracking_system_dashboard.html">ATS</a>
+          <a href="interview_scheduling.html">Interview Scheduling</a>
+          <a href="recruitment_dashboard.html">Recruitment Dashboard</a>
+          <a href="custom_dashboard.html">Custom Dashboard</a>
+          <a href="internship.html">Internship</a>
+          <a href="login.html" class="login-button">Login</a>
+      </div>
+  </header>
+    <main>
+      <div class="form-container">
+        <h2>Create Report</h2>
+        <form>
+          <div class="form-group">
+            <label for="report-name">Report Name:</label>
+            <input type="text" id="report-name" name="report-name" placeholder="Enter the report" />
+          </div>
+          <div class="form-group">
+            <label for="application-status">Application Status:</label>
+            <select id="application-status" name="application-status">
+              <option value="all">All</option>
+              <option value="pending">Pending</option>
+              <option value="approved">Approved</option>
+              <option value="rejected">Rejected</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="position">Position:</label>
+            <select id="position" name="position">
+              <option value="all">All</option>
+              <option value="developer">Developer</option>
+              <option value="designer">Designer</option>
+              <option value="manager">Manager</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="source">Source:</label>
+            <select id="source" name="source">
+              <option value="all">All</option>
+              <option value="linkedin">LinkedIn</option>
+              <option value="indeed">Indeed</option>
+              <option value="referral">Referral</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Fields to Include:</label>
+            <div class="checkbox-group">
+              <label><input type="checkbox" name="fields" value="applicant-name" /> Applicant Name</label>
+              <label><input type="checkbox" name="fields" value="applied-status" /> Applied Status</label>
+              <label><input type="checkbox" name="fields" value="source" /> Source</label>
+            </div>
+          </div>
+          <button type="submit" class="generate-report">Generate Report</button>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

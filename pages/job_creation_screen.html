@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Creation Screen</title>
+    <link rel="stylesheet" href="job_creation_screen.css">
+</head>
+<body>
+    <header>
+        <div class="header-title">Smart Recruiting System</div>
+        <div class="header-links">
+            <a href="application_tracking_system_dashboard.html">ATS</a>
+            <a href="interview_scheduling.html">Interview Scheduling</a>
+            <a href="recruitment_dashboard.html">Recruitment Dashboard</a>
+            <a href="custom_dashboard.html">Custom Dashboard</a>
+            <a href="internship.html">Internship</a>
+            <a href="login.html" class="login-button">Login</a>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Job Creation</h2>
+            <form>
+                <div class="form-group">
+                    <label for="resume-upload">Upload Resume</label>
+                    <input type="file" id="resume-upload" name="resume-upload" required>
+                </div>
+                <div class="form-group">
+                    <label for="job-title">Job Title</label>
+                    <input type="text" id="job-title" placeholder="Enter the job title" required>
+                </div>
+                <div class="form-group">
+                    <label for="job-description">Job Description</label>
+                    <textarea id="job-description" placeholder="Enter the job description" required minlength="50"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="department">Department</label>
+                    <select id="department" required>
+                        <option value="">Select the department</option>
+                        <option value="HR">HR</option>
+                        <option value="IT">IT</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Sales">Sales</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="job-location">Job Location</label>
+                    <input type="text" id="job-location" placeholder="Enter the job location" required>
+                </div>
+                <div class="form-group">
+                    <label for="employment-type">Employment Type</label>
+                    <select id="employment-type" required>
+                        <option value="">Select employment type</option>
+                        <option value="Full-time">Full-time</option>
+                        <option value="Part-time">Part-time</option>
+                        <option value="Contract">Contract</option>
+                        <option value="Internship">Internship</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="salary-range">Salary Range</label>
+                    <input type="text" id="salary-range" placeholder="Enter the salary range" required pattern="[0-9]+">
+                </div>
+                <div class="form-group">
+                    <label for="application-deadline">Application Deadline</label>
+                    <input type="date" id="application-deadline" placeholder="Select the application deadline" required>
+                </div>
+                <div class="form-group">
+                    <label for="required-qualifications">Required Qualifications</label>
+                    <textarea id="required-qualifications" placeholder="Enter the required qualifications" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="preferred-qualifications">Preferred Qualifications (Optional)</label>
+                    <textarea id="preferred-qualifications" placeholder="Enter the preferred qualifications"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="responsibilities">Responsibilities</label>
+                    <textarea id="responsibilities" placeholder="Enter the job responsibilities" required></textarea>
+                </div>
+                <button type="button" class="login-button" onclick="location.href='res.html';">Publish job Posting</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <img src="your-image-path.jpg" alt="Footer Image" class="footer-image">
+        <div class="footer-links">
+            <a href="application_tracking_system_dashboard.html">ATS</a>
+            <a href="interview_scheduling.html">Interview Scheduling</a>
+            <a href="recruitment_dashboard_21.html">Recruitment Dashboard</a>
+            <a href="custom_report_24.html">Custom Dashboard</a>
+            <a href="login.html">Login</a>
+            <a href="registration.html">Sign Up</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>

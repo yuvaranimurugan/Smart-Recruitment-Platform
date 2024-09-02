@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Report Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="report_details_26.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-title">Smart Recruiting System</div>
+      <div class="header-links">
+          <a href="application_tracking_system_dashboard.html">ATS</a>
+          <a href="interview_scheduling.html">Interview Scheduling</a>
+          <a href="recruitment_dashboard.html">Recruitment Dashboard</a>
+          <a href="custom_dashboard.html">Custom Dashboard</a>
+          <a href="internship.html">Internship</a>
+          <a href="login.html" class="login-button">Login</a>
+      </div>
+  </header>
+    <main>
+      <div class="content">
+        <form>
+          <div class="form-group">
+            <label for="report-name">Report Name</label>
+            <input type="text" id="report-name" name="report-name" required>
+          </div>
+          <div class="form-group">
+            <label for="date-created">Date Created</label>
+            <input type="date" id="date-created" name="date-created" required>
+          </div>
+          <div class="form-group">
+            <label for="created-by">Created By</label>
+            <input type="text" id="created-by" name="created-by" required>
+          </div>
+          <button type="submit" class="export-button">Export</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

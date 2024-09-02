@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('../assets/images/whats_app_image_20240901_at_001330_b_5_a_84_b_1_d_1.jpeg') center center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #424291;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.header-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.search-bar {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.content-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    text-align: left;
+    font-size: 18px;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #2121D9;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}

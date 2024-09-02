@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Editing</title>
+    <link rel="stylesheet" href="category_editing.css">
+</head>
+<body>
+    <header>
+        <div class="header-title">Smart Recruiting System</div>
+        <div class="header-links">
+            <a href="application_tracking_system_dashboard.html">ATS</a>
+            <a href="interview_scheduling.html">Interview Scheduling</a>
+            <a href="recruitment_dashboard.html">Recruitment Dashboard</a>
+            <a href="custom_dashboard.html">Custom Dashboard</a>
+            <a href="internship.html">Internship</a>
+            <a href="login.html" class="login-button">Login</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-title">Category Editing</div>
+        <div class="form-container">
+            <form id="category-edit-form">
+                <div class="form-group">
+                    <label for="edit-category-type">Category Type</label>
+                    <select id="edit-category-type" name="category-type" required>
+                        <option value="" disabled selected>Select Category Type</option>
+                        <option value="department">Department</option>
+                        <option value="location">Location</option>
+                        <option value="employment-type">Employment Type</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="edit-category-name">Category Name</label>
+                    <input type="text" id="edit-category-name" name="category-name" placeholder="Enter the category name" required>
+                </div>
+                <div class="button-group">
+                    <button type="button" class="login-button" onclick="location.href='job_creation_screen_integration.html';">Login</button>
+
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#ATS">ATS</a>
+            <a href="#InterviewScheduling">Interview Scheduling</a>
+            <a href="#RecruitmentDashboard">Recruitment Dashboard</a>
+            <a href="#CustomDashboard">Custom Dashboard</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="contact_us.html">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>

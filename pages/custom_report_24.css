@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-report-24 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+.banner {
+  background: url('../assets/images/custom_report_24.jpeg') center center / cover no-repeat;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay */
+  color: #000000; /* Text color for readability */
+  text-align: center;
+  padding: 80px 20px; /* Increased vertical padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 300px; /* Minimum height to ensure enough space */
+}
+
+.banner h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+header {
+  background-color: #424291;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  position: fixed; /* Fixed position */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it sits above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.header-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.login-button {
+  background-color: #3567B8;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+main {
+  padding: 100px 20px 20px; /* Adjust padding-top to account for fixed header height and increased banner height */
+}
+
+.table-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 12px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #E0F7FA; /* Light blue background for header cells */
+  color: #000000; /* Text color for header cells */
+}
+
+tbody td {
+  background-color: #FFFFFF; /* White background for table cells */
+}
+
+tbody tr:nth-of-type(2) td {
+  background-color: #D3D3D3; /* Light brown background for the third row cells */
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.create-report, .next {
+  background-color: #3567B8;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.view-status {
+  color: #3567B8;
+  text-decoration: none;
+}

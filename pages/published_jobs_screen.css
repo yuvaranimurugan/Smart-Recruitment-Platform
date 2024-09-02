@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('../assets/images/create_report_25.jpeg') center center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #424291;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.header-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.content-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.form-container {
+    background: #FFFF;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.published-jobs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.published-jobs-table th, .published-jobs-table td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.published-jobs-table th {
+    background-color: #f4f4f4;
+    font-weight: 700;
+}
+
+.view-button, .edit-button, .publish-button {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.publish-button {
+    background-color: #D43131;
+}
+
+.view-button:hover {
+    background-color: #2c5480;
+}
+
+.edit-button:hover {
+    background-color: #2c5480;
+}
+
+.publish-button:hover {
+    background-color: #b02a2a;
+}
+
+.publish-new-button {
+    background-color: #3567B8;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.publish-new-button:hover {
+    background-color: #2c5480;
+}
+
+footer {
+    background-color: #2121D9;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}

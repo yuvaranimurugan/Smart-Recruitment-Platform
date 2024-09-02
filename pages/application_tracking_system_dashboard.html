@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Tracking System Dashboard</title>
+  <link rel="stylesheet" href="application_tracking_system_dashboard.css">
+</head>
+<body class="application-tracking-dashboard">
+  <header>
+    <div class="header-title">Smart Recruiting System</div>
+    <div class="header-links">
+        <a href="application_tracking_system_dashboard.html">ATS</a>
+        <a href="interview_scheduling.html">Interview Scheduling</a>
+        <a href="recruitment_dashboard.html">Recruitment Dashboard</a>
+        <a href="custom_dashboard.html">Custom Dashboard</a>
+        <a href="internship.html">Internship</a>
+        <a href="login.html" class="login-button">Login</a>
+    </div>
+</header>
+
+  
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>We Are Hiring</h1>
+      <a href="#" class="login-button">Login</a>
+    </div>
+  </section>
+  
+  <main>
+    <div class="dashboard-container">
+      <!-- Existing Table Section -->
+      <section class="recent-applications">
+        <h2>Recent Applications</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Applicant Name</th>
+              <th>Job Title</th>
+              <th>Status</th>
+              <th>Date Applied</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>Developer</td>
+              <td>In Review</td>
+              <td>2024-09-01</td>
+              <td class="table-actions">
+                <a href="#">View</a>
+                <a href="#">Move to Next Stage</a>
+                <a href="#">Reject</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>Designer</td>
+              <td>Applied</td>
+              <td>2024-08-28</td>
+              <td class="table-actions">
+                <a href="#">View</a>
+                <a href="#">Move to Next Stage</a>
+                <a href="#">Reject</a>
+              </td>
+            </tr>
+            <!-- More rows as needed -->
+          </tbody>
+        </table>
+        <button class="view-all-button" onclick="location.href='application_management.html'">View All Applications</button>
+      </section>
+      
+      <!-- Course Section -->
+      <section class="courses">
+        <h2>Available Courses</h2>
+        <div class="course-buttons">
+          <div class="course" style="background-image: url('../assets/images/WhatsApp Image 2024-09-02 at 1.36.29 PM.jpeg');">
+            <h3>Frontend Development</h3>
+            <a href="#" class="learn-more-button">Learn More</a>
+          </div>
+          <div class="course" style="background-image: url('../assets/images/WhatsApp Image 2024-09-02 at 1.36.44 PM.jpeg');">
+            <h3>UI/UX Design</h3>
+            <a href="materials.html" class="learn-more-button">Learn More</a>
+          </div>
+          <div class="course" style="background-image: url('../assets/images/WhatsApp Image 2024-09-02 at 1.37.02 PM.jpeg');">
+            <h3>IT Infrastructure</h3>
+            <a href="materials.html" class="learn-more-button">Learn More</a>
+          </div>
+          <div class="course" style="background-image: url('../assets/images/WhatsApp Image 2024-09-02 at 1.37.18 PM.jpeg');">
+            <h3>Python Programming</h3>
+            <a href="materials.html" class="learn-more-button">Learn More</a>
+          </div>
+          <div class="course" style="background-image: url('../assets/images/WhatsApp Image 2024-09-02 at 1.37.32 PM.jpeg');">
+            <h3>C Programming</h3>
+            <a href="materials.html" class="learn-more-button">Learn More</a>
+          </div>
+          <div class="course" style="background-image: url('../assets/images/WhatsApp Image 2024-09-02 at 1.37.46 PM.jpeg');">
+            <h3>Full Stack Development</h3>
+            <a href="materials.html" class="learn-more-button">Learn More</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="footer-links">
+      <a href="#">ATS</a>
+      <a href="#">Interview Scheduling</a>
+      <a href="#">Recruitment Dashboard</a>
+      <a href="#">Custom Reports</a>
+      <a href="#">Login</a>
+      <a href="#">Signup</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </footer>
+</body>
+</html>

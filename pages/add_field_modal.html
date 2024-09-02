@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Field</title>
+    <link rel="stylesheet" href="add_field_modal.css">
+</head>
+<body>
+    <header>
+        <div class="header-title">Smart Recruiting System</div>
+        <div class="header-links">
+            <a href="#ATS">ATS</a>
+            <a href="#InterviewScheduling">Interview Scheduling</a>
+            <a href="#RecruitmentDashboard">Recruitment Dashboard</a>
+            <a href="#CustomDashboard">Custom Dashboard</a>
+            <a href="login.html" class="login-button">Login</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-title">Add Field</div>
+        <div class="form-container">
+            <form id="add-field-form">
+                <div class="form-group">
+                    <label for="field-name">Field Name</label>
+                    <input type="text" id="field-name" name="field-name" placeholder="Enter the field name" required>
+                </div>
+                <div class="form-group">
+                    <label for="field-type">Field Type</label>
+                    <select id="field-type" name="field-type" required>
+                        <option value="" disabled selected>Select Field Type</option>
+                        <option value="textbox">Textbox</option>
+                        <option value="dropdown">Dropdown</option>
+                        <option value="checkbox">Checkbox</option>
+                        <option value="radio-button">Radio Button</option>
+                        <option value="date-picker">Date Picker</option>
+                    </select>
+                </div>
+                <div class="form-group" id="field-options-container" style="display: none;">
+                    <label for="field-options">Field Options</label>
+                    <input type="text" id="field-options" name="field-options" placeholder="Enter options separated by commas" required>
+                </div>
+                <div class="button-group">
+                    <button type="button" class="login-button" onclick="location.href='form_editing.html';">AddField</button>
+
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#ATS">ATS</a>
+            <a href="#InterviewScheduling">Interview Scheduling</a>
+            <a href="#RecruitmentDashboard">Recruitment Dashboard</a>
+            <a href="#CustomDashboard">Custom Dashboard</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="contact_us.html">Contact Us</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('field-type').addEventListener('change', function() {
+            const fieldType = this.value;
+            const optionsContainer = document.getElementById('field-options-container');
+            if (fieldType === 'dropdown' || fieldType === 'checkbox' || fieldType === 'radio-button') {
+                optionsContainer.style.display = 'block';
+            } else {
+                optionsContainer.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

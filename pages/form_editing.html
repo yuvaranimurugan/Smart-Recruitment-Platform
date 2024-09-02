@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Editing</title>
+    <link rel="stylesheet" href="form_editing.css">
+</head>
+<body>
+    <header>
+        <div class="header-title">Smart Recruiting System</div>
+        <div class="header-links">
+            <a href="application_tracking_system_dashboard.html">ATS</a>
+            <a href="interview_scheduling.html">Interview Scheduling</a>
+            <a href="recruitment_dashboard.html">Recruitment Dashboard</a>
+            <a href="custom_dashboard.html">Custom Dashboard</a>
+            <a href="internship.html">Internship</a>
+            <a href="login.html" class="login-button">Login</a>
+        </div>
+    </header>
+    <main>
+        <div class="content-title">Form Editing</div>
+        <div class="form-container">
+            <form id="form-edit-form">
+                <div class="form-group">
+                    <label for="edit-form-name">Form Name</label>
+                    <input type="text" id="edit-form-name" name="form-name" placeholder="Enter the form name" value="Existing Form Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-associated-job">Associated Job</label>
+                    <select id="edit-associated-job" name="associated-job" required>
+                        <option value="" disabled>Select a job</option>
+                        <option value="job1" selected>Job Title 1</option>
+                        <option value="job2">Job Title 2</option>
+                        <option value="job3">Job Title 3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Form Fields</label>
+                    <table class="form-fields-table">
+                        <thead>
+                            <tr>
+                                <th>Field Name</th>
+                                <th>Field Type</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Field 1</td>
+                                <td>Text Box</td>
+                                <td>
+                                    <button type="button" class="edit-field">Edit</button>
+                                    <button type="button" class="delete-field">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Field 2</td>
+                                <td>Drop Down</td>
+                                <td>
+                                    <button type="button" class="edit-field">Edit</button>
+                                    <button type="button" class="delete-field">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="button-group">
+                    <button type="button" class="login-button" onclick="location.href='application_tracking_system_dashboard.html';">Save Form</button>
+
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#ATS">ATS</a>
+            <a href="#InterviewScheduling">Interview Scheduling</a>
+            <a href="#RecruitmentDashboard">Recruitment Dashboard</a>
+            <a href="#CustomDashboard">Custom Dashboard</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="contact_us.html">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>
